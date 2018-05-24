@@ -1,0 +1,36 @@
+{
+  "ports": {
+    "in": {
+      "searchBy": "device",
+      "name": "IAC",
+      "latency": 0.0,
+    },
+    "out": {
+      "searchBy": "device",
+      "name": "USB Uno MIDI Interface",
+      "latency": 0.0,
+    }
+  },
+  "channels": {
+    "BD": 16,
+    "SD": 2,
+    "RS": 3,
+    "CP": 4,
+    "BT": 5,
+    "LT": 6,
+    "MT": 7,
+    "HT": 8,
+    "CH": 9,
+    "OH": 10,
+    "CY": 11,
+    "CB": 12
+  },
+  "sequencer": {
+    "grid": 1,
+    "quant": 1,
+    "fps": 24
+  },
+  "patterns": {
+    "paths": []
+  }
+}
